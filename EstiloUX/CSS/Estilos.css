@@ -26,18 +26,21 @@ h1 {
     height: 100%;
     max-width: 1050px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .header-flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav {
     width: 400px;
     height: 100%;
-    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
 }
 
 .lousa {

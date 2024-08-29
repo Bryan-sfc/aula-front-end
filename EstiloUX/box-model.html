@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body{
+            background-color: #DFE1E9;
+        }
+        
+        section {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            border: black solid 1px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+        }
+
+        article {
+            width: 180px;
+            height: 180px;
+            padding: 15px;
+            margin-top: 25px;
+            border-radius: 10px;
+            border: 1px dashed blue;
+            background-color: #DFE1E9;
+            box-shadow: 2px 2px 5px black;
+            text-align: center;
+        }
+
+        article img {
+            width: 40px;
+        }
+
+        article h1 {
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: uppercase;
+        }
+
+        article p {
+            font-family: cursive;
+            font-size: 12px;
+        }
+
+        .caixa-azul {
+            background-color: rgb(2, 160, 252);
+            p {
+                color: white;
+            }
+            h1 {
+                color: white;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <article>
+            <img src="./Imagens/raio.svg" alt="Imagem de um raio">
+            <h1>Web Design</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In neque rem corrupti quasi ratione nemo autem.</p>
+        </article>
+
+        <article class="caixa-azul">
+            <img src="./Imagens/Share.svg" alt="Imagem de um raio">
+            <h1>Graphic Content</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In neque rem corrupti quasi ratione nemo autem.</p>
+        </article>
+
+        <article>
+            <img src="./Imagens/Folder.svg" alt="Imagem de um raio">
+            <h1>UI/UX Design</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In neque rem corrupti quasi ratione nemo autem.</p>
+        </article>
+    </section>
+</body>
+</html>
