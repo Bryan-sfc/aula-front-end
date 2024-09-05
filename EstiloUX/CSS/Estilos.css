@@ -198,11 +198,19 @@ aside article button {
     border-radius: 4px;
 }
 
+aside article ul {
+    font-size: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
+    color: #727272;
+}
+
 .Buscar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
+    height: 150px;
     border-bottom: 10px;
     background-color: white;
 }
